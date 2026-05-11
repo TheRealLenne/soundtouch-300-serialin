@@ -3,6 +3,7 @@
 
 Since there are no ways to plug a USB-A in the soundtouch300 this is the way i enabled SSH access since Bose deprecated their servers.
 This uses a telnet server running on the ESP8266 while the esp acts as a serial bridge.
+This works on the soundtouch 300, im not sure about the 700 but they are around the same thing. You can atleast try as this does not damage your device.
 
 **What you need: (What i used)**
 - ESP 8266 NodeMCU
