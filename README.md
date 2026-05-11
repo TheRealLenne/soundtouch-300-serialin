@@ -36,6 +36,7 @@ From there SSH can be enabled permanently.
 Tip Of AUX (Top part)           -> D7<br>
 Ring of the AUX (Middle part)   -> D8<br>
 Sleeve of the Aux (Bottom part) -> GND<br>
+4. Flash the software included in this repository (software-for-esp.ino) to the esp using arduino ide and make sure to enter in your wifi ssid and password in the variables. If the esp8266 is not in the arduino ide yet use [this tutorial](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/)
 
 
 ## How to use the cable to get a console
