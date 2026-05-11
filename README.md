@@ -20,5 +20,23 @@ Ring of the AUX (Middle part)   -> D8<br>
 Sleeve of the Aux (Bottom part) -> GND<br>
 
 
+**How to use the cable to get a console**
+1. Turn off the soundbar by removing 
+2. Peel of a little bit of the sticker on the back of the soundbar where it says the HDMI Logo.
+3. A Rubber cover will be under there, remove it.
+4. Once you remove the rubber cover you will see an aux like port plug the aux cable in that hole.
+5. Turn on the esp using a non-data micro usb cable or plug the esp into a phone brick.
+6. After the led blinks 3 times on the esp, Find the local ip of the esp in your router or use nmap.
+7. telnet into the esp by using `telnet espip 23` or putty
+8. plug the power back into the soundbar, you should see output on the telnet.
+9. Once the WiFi light is on on the soundbar press enter.
+10. You should see a "A4V> " prompt
+11. Type in "rb 1", it should then go to "A4Vmfg> "
+12. Then enter in "sm2 start", and you should get straight to the linux command line!
+13. To enable ssh run the following commands: `rw` and then `touch /mnt/nv/remote_services && /etc/init.d/sshd start`
+14. Then just give it a quick reboot by entering `reboot` and congratulations! SSH is enabled, you can now exit telnet and ssh from your laptop at any time, just `ssh root@boseip`
 
-More soon.
+
+**Change and make replica servers etc.**
+To change out the servers to make presets work again i recommend you go further using [this tutorial](https://timvw.be/2026/02/17/keep-your-bose-soundtouch-speaker-alive-after-the-shutdown/), we did step 1 of this article already, you can go ahead with step 2.
+
