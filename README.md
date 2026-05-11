@@ -31,7 +31,7 @@ From there SSH can be enabled permanently.
 
 ## How to make the cable
 1. Strip the AUX cable
-2. Find out which parts of the aux cable corrosponds to which cable
+2. Identify which wire corresponds to each TRS contact: Tip, Ring, Sleeve (Ground). A multimeter in continuity mode is recommended.
 3. Attach the following cables to the following ports of the ESP<br>
 Tip Of AUX (Top part)           -> D7<br>
 Ring of the AUX (Middle part)   -> D8<br>
