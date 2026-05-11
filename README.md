@@ -4,11 +4,13 @@
 Since there are no ways to plug a USB-A in the soundtouch300 this is the way i enabled SSH access since Bose deprecated their servers.
 This uses a telnet server running on the ESP8266 while the esp acts as a serial bridge.
 This works on the soundtouch 300, im not sure about the 700 but they are around the same thing. You can atleast try as this does not damage your device. I am NOT responsible for any damages you may do during this procedure. Read this article carefully.
-UART is 3.3V TTL.
-do NOT inject 5V!
-do NOT connect RS232 levels directly!
-Using an esp8266 like i said is fine.
-
+UART is 3.3V TTL, do NOT inject 5V! Do NOT connect RS232 levels directly! Using an esp8266 like i said is fine.
+The ESP8266 firmware handles the UART configuration internally.
+Users do not need to manually configure:
+- baud rate
+- parity
+- stop bits
+The telnet bridge automatically exposes the SoundTouch UART console over TCP port 23.
 Originally researched and documented by TheRealLenne.
 
 ## What is this?
