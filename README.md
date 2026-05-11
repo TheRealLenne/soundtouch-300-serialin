@@ -1,4 +1,4 @@
-<h1 align="center">Bose Soundtouch 300/700 Serial In + How to make TAP Cable</h1>
+<h1 align="center">Bose Soundtouch 300/700 Serial UART + How to make TAP Cable</h1>
 <p align="center">A tutorial + code on how to make a TAP cable and enter in the linux terminal for the Bose Soundtouch 300/700.</p>
 
 Since the SoundTouch 300 does not expose a standard USB debug or console interface, this method can be used to gain linux shell access.
