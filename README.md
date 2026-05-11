@@ -17,3 +17,7 @@ This uses a telnet server running on the ESP8266 while the esp acts as a serial 
 Tip Of AUX (Top part)           -> D7<br>
 Ring of the AUX (Middle part)   -> D8<br>
 Sleeve of the Aux (Bottom part) -> GND<br>
+
+
+
+More soon.
