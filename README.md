@@ -9,6 +9,15 @@ do NOT inject 5V!
 do NOT connect RS232 levels directly!
 Using an esp8266 like i said is fine.
 
+## What is this?
+The SoundTouch 300 contains a hidden UART debug/service interface
+accessible through a concealed TRS connector behind the rear sticker.
+This guide uses an ESP8266 as a Wi-Fi-to-UART bridge to access:
+- the manufacturing shell
+- boot logs
+- the Linux userspace shell
+From there SSH can be enabled permanently.
+
 **What you need: (What i used)**
 - ESP 8266 NodeMCU
 - An old AUX cable
