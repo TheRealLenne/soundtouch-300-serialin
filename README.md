@@ -11,6 +11,8 @@ Users do not need to manually configure:
 - parity
 - stop bits
 The telnet bridge automatically exposes the SoundTouch UART console over TCP port 23.<br>
+
+
 Originally researched and documented by TheRealLenne.
 
 ## What is this?
