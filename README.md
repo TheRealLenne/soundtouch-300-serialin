@@ -36,7 +36,7 @@ Sleeve of the Aux (Bottom part) -> GND<br>
 
 
 ## How to use the cable to get a console
-1. Turn off the soundbar by removing 
+1. Turn off the soundbar by removing the power cable in the soundbar or removing the brick from the power outlet.
 2. Peel of a little bit of the sticker on the back of the soundbar where it says the HDMI Logo.
 3. A Rubber cover will be under there, remove it.
 4. Once you remove the rubber cover you will see an aux like port plug the aux cable in that hole.
