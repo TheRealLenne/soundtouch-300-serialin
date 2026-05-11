@@ -9,9 +9,8 @@ The ESP8266 firmware handles the UART configuration internally.
 Users do not need to manually configure:
 - baud rate
 - parity
-- stop bits
+- stop bits<br>
 The telnet bridge automatically exposes the SoundTouch UART console over TCP port 23.<br>
-
 
 Originally researched and documented by TheRealLenne.
 
