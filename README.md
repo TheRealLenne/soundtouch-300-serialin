@@ -31,8 +31,8 @@ Sleeve of the Aux (Bottom part) -> GND<br>
 8. plug the power back into the soundbar, you should see output on the telnet.
 9. Once the WiFi light is on on the soundbar press enter.
 10. You should see a "A4V> " prompt
-11. Type in "rb 1", it should then go to "A4Vmfg> "
-12. Then enter in "sm2 start", and you should get straight to the linux command line!
+11. Type in `rb 1`, it should then go to "A4Vmfg> "
+12. Then enter in `sm2 start`, and you should get straight to the linux command line!
 13. To enable ssh run the following commands: `rw` and then `touch /mnt/nv/remote_services && /etc/init.d/sshd start`
 14. Then just give it a quick reboot by entering `reboot` and congratulations! SSH is enabled, you can now exit telnet and ssh from your laptop at any time, just `ssh root@boseip`
 
