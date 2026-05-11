@@ -1,7 +1,7 @@
 <h1 align="center">Bose Soundtouch 300/700 Serial In + How to make TAP Cable</h1>
 <p align="center">A tutorial + code on how to make a TAP cable and enter in the linux terminal for the Bose Soundtouch 300/700.</p>
 
-Since there are no ways to plug a USB-A in the soundtouch300 this is the way i enabled SSH access since Bose deprecated their servers.
+Since the SoundTouch 300 does not expose a standard USB debug or console interface, this method can be used to gain linux shell access.
 This uses a telnet server running on the ESP8266 while the esp acts as a serial bridge.
 This works on the soundtouch 300, im not sure about the 700 but they are around the same thing. You can atleast try as this does not damage your device. I am NOT responsible for any damages you may do during this procedure. Read this article carefully.
 UART is 3.3V TTL, do NOT inject 5V! Do NOT connect RS232 levels directly! Using an esp8266 like i said is fine.
@@ -36,6 +36,7 @@ From there SSH can be enabled permanently.
 Tip Of AUX (Top part)           -> D7<br>
 Ring of the AUX (Middle part)   -> D8<br>
 Sleeve of the Aux (Bottom part) -> GND<br>
+(D7 = RX, D8 = TX)<br>
 4. Flash the software included in this repository (software-for-esp.ino) to the esp using arduino ide and make sure to enter in your wifi ssid and password in the variables. If the esp8266 is not in the arduino ide yet use [this tutorial](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/)
 
 
