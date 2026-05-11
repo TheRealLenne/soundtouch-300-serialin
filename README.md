@@ -9,6 +9,8 @@ do NOT inject 5V!
 do NOT connect RS232 levels directly!
 Using an esp8266 like i said is fine.
 
+Originally researched and documented by TheRealLenne.
+
 ## What is this?
 The SoundTouch 300 contains a hidden UART debug/service interface
 accessible through a concealed TRS connector behind the rear sticker.
@@ -18,13 +20,13 @@ This guide uses an ESP8266 as a Wi-Fi-to-UART bridge to access:
 - the Linux userspace shell
 From there SSH can be enabled permanently.
 
-**What you need: (What i used)**
+## What you need: (What i used)
 - ESP 8266 NodeMCU
 - An old AUX cable
 - Some jumper wires
 - Breadboard
 
-**How to make the cable**
+## How to make the cable
 1. Strip the AUX cable
 2. Find out which parts of the aux cable corrosponds to which cable
 3. Attach the following cables to the following ports of the ESP<br>
@@ -33,7 +35,7 @@ Ring of the AUX (Middle part)   -> D8<br>
 Sleeve of the Aux (Bottom part) -> GND<br>
 
 
-**How to use the cable to get a console**
+## How to use the cable to get a console
 1. Turn off the soundbar by removing 
 2. Peel of a little bit of the sticker on the back of the soundbar where it says the HDMI Logo.
 3. A Rubber cover will be under there, remove it.
