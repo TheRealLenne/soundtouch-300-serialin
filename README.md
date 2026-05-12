@@ -56,9 +56,8 @@ Sleeve of the Aux (Bottom part) -> GND<br>
 13. To enable ssh run the following commands: `rw` and then `touch /mnt/nv/remote_services && /etc/init.d/sshd start`
 14. Then just give it a quick reboot by entering `reboot` and congratulations! SSH is enabled, you can now exit telnet and ssh from your laptop at any time, just `ssh root@boseip`
 
-Feel free to make any pull requests, and please give me a star! Thank you and enjoy your ssh enabled soundtouch!
-
 
 **Change and make replica servers etc.**
 To change out the servers to make presets work again i recommend you go further using [this tutorial](https://timvw.be/2026/02/17/keep-your-bose-soundtouch-speaker-alive-after-the-shutdown/), we did step 1 of this article already, you can go ahead with step 2.
 
+Feel free to make any pull requests, and please give me a star! Thank you and enjoy your ssh enabled soundtouch!
