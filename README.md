@@ -12,7 +12,7 @@ Users do not need to manually configure:
 - stop bits<br>
 The telnet bridge automatically exposes the SoundTouch UART console over TCP port 23.<br>
 
-Originally researched and documented by TheRealLenne.
+Originally researched and documented by [Lenne](https://lennerutten.nl).
 
 ## What is this?
 The SoundTouch 300 contains a hidden UART debug/service interface
